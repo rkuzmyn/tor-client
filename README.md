@@ -24,11 +24,17 @@ Docker Hub: https://hub.docker.com/r/baf28/tor-client
 
 
 Command:
+
 sudo apt update
+
 sudo apt upgrade
+
 sudo apt install docker docker.io
 
 build -t baf28/tor-client .
+
 docker image ls
+
 docker run -d -p 9050:9050 baf28/tor-client
+
 docker ps -a
