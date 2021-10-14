@@ -1,4 +1,4 @@
-I am Roman. This is my docker tor-client for Synology NAS.
+This is my docker tor-client for Synology NAS.
 
 Tor client (Socks proxy ) version 0.4.2.7 OS Ubuntu
 
