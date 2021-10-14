@@ -1,4 +1,4 @@
-I am Alexandr Linux. This is my docker tor-client for Synology NAS.
+I am Roman. This is my docker tor-client for Synology NAS.
 
 Tor client (Socks proxy ) version 0.4.2.7 OS Ubuntu
 
@@ -18,9 +18,9 @@ Install Synology NAS:
 
 To use, configure your browser/client to use a SOCKS server with the IP of the NAS and server port: 9150. (Use TorBrowser and change connection settings in preferences panel) Your Tor client is running.
 
-Install Linux: docker run -d -p 9050:9050 baf28/tor-client
+Install Linux: docker run -d -p 9050:9050 kuzmyn1983/tor-client
 
-Docker Hub: https://hub.docker.com/r/baf28/tor-client
+Docker Hub: https://hub.docker.com/r/kuzmyn1983/tor-client
 
 
 Command:
@@ -31,10 +31,10 @@ sudo apt upgrade
 
 sudo apt install docker docker.io
 
-build -t baf28/tor-client .
+docker build -t kuzmyn1983/tor-client .
 
 docker image ls
 
-docker run -d -p 9050:9050 baf28/tor-client
+docker run -d -p 9050:9050 kuzmyn1983/tor-client
 
 docker ps -a

@@ -2,11 +2,8 @@
 SocksPort 0.0.0.0:9050
 
 ## Entry policies to allow/deny SOCKS requests based on IP address.
-## SocksPolicy accept 192.168.1.0/24
-SocksPolicy accept 172.16.0.0/16
-SocksPolicy accept 172.17.0.0/16
-SocksPolicy accept 192.168.0.0/16
-SocksPolicy accept 10.0.0.0/8
+## SocksPolicy accept 10.10.10.0/24
+SocksPolicy accept 10.10.10.0/24
 SocksPolicy reject *
 
 ## Logs go to stdout at level "notice"
